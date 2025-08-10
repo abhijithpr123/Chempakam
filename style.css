@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items:center; */
+    background-color: aquamarine;
+    width: 100%;
+    height: 2000px;
+
+}
+.nav{
+    /* height: 150px; */
+    position: sticky;
+    background-color: blue;
+    top: 0%;
+}
+.nav1{
+    background-color: #FFE8DF;
+    padding: 7px;
+}
+.nav2{
+    background-color: #2e2e2e;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+.logo{
+    padding: 5px;
+    flex: 1;
+}
+.menu{
+    /* background-color: #FFE8DF; */
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+.nc1{
+    color: white;
+    text-decoration: none;
+
+}
+.search input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 7px;
+    border: solid black;
+}
+.search2{
+    position: absolute;
+    /* right: 30px; */
+    color: gray;
+    right: 445px;
+    bottom: 38px;
+}
+.icons{
+    display: flex;
+    /* background-color: bisque; */
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+}
+.icon1{
+    padding-left: 8px;
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+.ic{
+    width: 40px;
+    height: 40px;
+}
+.bgdivmain{
+    height: 83vh;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(/gbimage.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    /* background-attachment: cover; */
+}
+.bgdiv{
+    padding-right: 350px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+    /* position: fixed; */
+    /* right: 680px; */
+}
+.bgdiv p{
+    color: white;
+    font-size: 60px;
+}
+.bgdivh3{
+    font-weight: 550;
+}
+.bgdivh4 button{
+    height: 45px;
+    width: 150px;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+}
+.bgdivh5 button{
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+}
+.wp img{
+    position: fixed;
+    bottom: 15px;
+    height: 60px;
+    width: 60px;
+    right: 15px;
+    border-radius: 50px;
+}
+.wp p{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    right: 78px;
+    color: black;
+    bottom: 25px;
+    border-radius: 20px;
+}
+.roundcard{
+    /* background-color:aqua; */
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    gap: 5px;
+}
+.rcard1 img{
+    height: 180px;
+    width: 180px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.rcard1{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rcard1 p{
+    color: gray;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 20px;
+}
+.bestcard{
+    display: flex;
+    width: 80%;
+    gap: 30px;
+    flex-direction: column;
+}
+.bestcard img{
+    height: 300px;
+    /* width: 300px; */
+}
+.bestcard1{
+    display: flex;
+    width: 300px;
+    gap: 30px;
+    flex-direction: column;
+}

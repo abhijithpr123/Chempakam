@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+.header{
+    position: sticky;
+}
 .nav1{
     background-color: #FFE8DF;
     padding: 7px;
@@ -85,3 +88,12 @@
     display: flex;
     justify-content: space-evenly;
 }
+/* @media (max-width:1200px) { 
+    .navcontent{
+        flex-direction: column;
+    }
+    
+} */
+ body{
+    height: 1000px;
+ }

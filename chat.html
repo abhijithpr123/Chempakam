@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Chempakam (Clone)</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+</head>
+
+<body>
+    <!-- Top strip -->
+    <div class="top-strip">WELCOME TO CHEMPAKAM COLLECTIONS EXCLUSIVELY FOR WOMEN</div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#"><img src="chempakam-logo.png" alt=""></a>
+        </div>
+        <nav class="nav-links">
+            <a href="#">SHOP NOW</a>
+            <a href="#">REVIEWS</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT US</a>
+        </nav>
+        <div class="search-icons">
+            <input type="text" placeholder="Product Code">
+            <button><i class="fas fa-search"></i></button>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <button class="hamburger"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to</h2>
+            <h1>Chempakam</h1>
+            <h3>Online Shop</h3>
+            <div class="buttons">
+                <a href="#" class="btn">SHOP NOW</a>
+                <a href="#" class="btn secondary">DISCOUNT SALE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="grid">
+            <!-- Repeat these product boxes -->
+            <div class="product">
+                <img src="placeholder1.jpg" alt="Product">
+                <h3>Product Name</h3>
+                <p>₹999</p>
+            </div>
+            <div class="product">
+                <img src="placeholder2.jpg" alt="Product">
+                <h3>Product Name</h3>
+                <p>₹1,299</p>
+            </div>
+            <!-- Add more as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>© 2025 Chempakam. All Rights Reserved.</div>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fas fa-envelope"></i>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/your-number" class="whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Optional small JS -->
+    <script>
+        const hamb = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav-links');
+        hamb.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
